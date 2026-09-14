@@ -207,6 +207,14 @@ p { margin: 1rem 0; color: var(--c-gray-dark); }
 .people-list li { margin-bottom: 1.1rem; }
 .people-list strong { font-family: var(--f-serif); font-size: 1.05rem; color: var(--c-dark); }
 
+.people-list a {
+  color: var(--c-red-dark);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: opacity 0.15s;
+}
+.people-list a:hover { opacity: 0.75; }
+
 /* RSVP band — full-bleed solid purple block, matching the dashboard's
    .stats-band treatment (color-block section, not just an inline card). */
 .rsvp-band {
